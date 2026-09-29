@@ -4,11 +4,11 @@ cask "queuescope" do
 
   url "https://github.com/raynirola/queuescope/releases/download/v#{version}/QueueScope-#{version}-macOS.zip"
   name "QueueScope"
-  desc "Native macOS dashboard for BullMQ queues"
+  desc "Dashboard for BullMQ queues"
   homepage "https://github.com/raynirola/queuescope"
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "QueueScope.app"
 end

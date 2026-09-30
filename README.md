@@ -1,6 +1,6 @@
 # Ray Nirola's Homebrew tap
 
-Install [QueueScope](https://raynirola.github.io/queuescope/), a free native macOS dashboard for BullMQ:
+Install [QueueScope](https://queuescope.app/), a free native macOS dashboard for BullMQ:
 
 ```sh
 brew install --cask raynirola/tap/queuescope
